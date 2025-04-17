@@ -1,4 +1,15 @@
 {
+  {
+  "actionLog": {
+    "nis2compliant": "Whether the server enforces logging certain action types in compliance with the NIS2 Directive, a European Union directive to raise the cybersecurity level of businesses in some sectors: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022L2555. If you enable this setting, you cannot store the Action Logs with the \"Forever\" option or disable certain logs.",
+    "actionLogForEndUsers": "Whether users can access Plesk Action Log events related to their subscriptions. You do not need to enable this setting if the nis2compliant setting is enabled."
+  },
+  "ext-log-browser": {
+    "mailQueue.customerAccess": "Whether end users can access the Track Email Delivery feature to troubleshoot delivery problems. This feature is only available for Plesk for Linux users who have installed the Log Browser extension: https://docs.plesk.com/en-US/obsidian/administrator-guide/website-management/mail-settings/plesk-for-linux-tracking-email-delivery.80032.",
+    "mailQueue.serverWide": "Whether Plesk's Log Browser extension replaces the legacy mail server queue. This feature is only available to Plesk for Linux users: https://www.plesk.com/extensions/log-browser/.",
+    "mailQueue.rejectedRemovalPeriod": "How long to allow a rejected email to remain in the Log Browser extension mail queue before removing it, in seconds. This setting is only available for Plesk for Linux users who have installed the Log Browser extension: https://www.plesk.com/extensions/log-browser/.",
+    "mailQueue.firstEntryOffset": "This setting lets you set an expiration period in seconds after which the Log Browser extension no longer processes email messages. For example, if the value is 86400, the Log Browser will not process logs that are more than one day old. This setting is only available for Plesk for Linux users who have installed the Log Browser extension: https://www.plesk.com/extensions/log-browser/."
+  },
   "ext-sslit": {
     "filteredProducts": "The list of SSL/TLS certificates available for order. Run the `plesk ext sslit --product -list` command to get all available certificates and their states.",
     "orderAutoProcessingInterval": "Determines how often the SSL It! extension tries to automatically refresh the state of the placed certificate order.",
