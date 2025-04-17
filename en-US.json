@@ -1,7 +1,7 @@
 {
   {
   "actionLog": {
-    "nis2compliant": "Whether the server enforces logging certain action types in compliance with the NIS2 Directive, a European Union directive to raise the cybersecurity level of businesses in some sectors: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022L2555. If you enable this setting, you cannot store the Action Logs with the \"Forever\" option or disable certain logs.",
+    "nis2compliant": "Whether the server enforces logging certain action types in compliance with the NIS2 Directive. If you enable this setting, you cannot store the Action Logs with the \"Forever\" option or disable certain logs.",
     "actionLogForEndUsers": "Whether users can access Plesk Action Log events related to their subscriptions. You do not need to enable this setting if the nis2compliant setting is enabled."
   },
   "ext-log-browser": {
